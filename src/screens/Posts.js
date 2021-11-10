@@ -4,12 +4,10 @@ import { USERS } from "../utils/users";
 const Posts = (props) => {
   console.log(USERS);
   return (
-    <div className="container">
+    <div className="container-fluid post-screen">
       {USERS.map((user) => (
-        <div key={user.userName}>
-          <div className="post">
-            <Post users={user} />
-          </div>
+        <div key={user.userName} className="post">
+          <Post users={user} />
         </div>
       ))}
     </div>

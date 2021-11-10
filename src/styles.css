@@ -1,10 +1,10 @@
 .post-header {
-  height: 3rem;
+  height: 4rem;
   width: 100%;
   display: flex;
   align-items: center;
   gap: 10px 10px;
-  margin: 0.5rem;
+  /* margin: 1rem; */
 }
 .profile-picture {
   height: 3rem;
@@ -18,8 +18,7 @@
 
 .post-body {
   height: 30rem;
-  width: 25rem;
-  margin: 0.5rem;
+  width: 100%;
 }
 .post-image {
   height: 100%;
@@ -32,9 +31,14 @@
   display: flex;
   align-items: center;
   gap: 10px 10px;
-  margin: 0.5rem;
+}
+.post-screen {
+  background-color: #a0e7e5;
+  padding: 0;
 }
 
 .post {
-  margin: 2px;
+  width: 40rem;
+  background-color: #fbe7c6;
+  margin: 0.5rem;
 }
